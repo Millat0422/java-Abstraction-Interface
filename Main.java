@@ -9,7 +9,7 @@ abstract class Animal {
 }
 
 class Lion extends Animal {
-   
+      @Override
     void sound() {
         System.out.println("Lion roars");
     }
@@ -17,7 +17,7 @@ class Lion extends Animal {
 
 
 class Tiger extends Animal {
-    
+       @Override
     void sound() {
         System.out.println("Tiger growls");
     }
@@ -35,3 +35,4 @@ public class Main {
         tiger.sound();
     }
 }
+
